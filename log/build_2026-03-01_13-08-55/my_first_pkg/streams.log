@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
+[0.018s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.085s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.096s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.097s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.099s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.119s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.120s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.164s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.183s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.213s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.228s] -- Found my_interfaces: 0.0.0 (/home/yang/Desktop/proj/ros0/install/my_interfaces/share/my_interfaces/cmake)
+[0.231s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.231s]   ament_target_dependencies() the passed package name 'geometry_msgs' was not
+[0.231s]   found before
+[0.231s] Call Stack (most recent call first):
+[0.231s]   CMakeLists.txt:50 (ament_target_dependencies)
+[0.231s] 
+[0.231s] [0m
+[0.231s] -- Configuring incomplete, errors occurred!
+[0.232s] See also "/home/yang/Desktop/proj/ros0/build/my_first_pkg/CMakeFiles/CMakeOutput.log".
+[0.236s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1
+[0.237s] Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12

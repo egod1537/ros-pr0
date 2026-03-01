@@ -1,0 +1,8 @@
+[01m[K/home/yang/Desktop/proj/ros0/my_first_pkg/src/ekf_slam.cpp:[m[K In constructor ‘[01m[KEkfsSlam::EkfsSlam()[m[K’:
+[01m[K/home/yang/Desktop/proj/ros0/my_first_pkg/src/ekf_slam.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQ_[m[K’?
+   25 |     [01;31m[KQ[m[K = (Vec3() << 0.1, 0.1, 0.05).finished().asDiagonal();
+      |     [01;31m[K^[m[K
+      |     [32m[KQ_[m[K
+gmake[2]: *** [CMakeFiles/ekf_slam.dir/build.make:76: CMakeFiles/ekf_slam.dir/src/ekf_slam.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/ekf_slam.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

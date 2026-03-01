@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
+[0.018s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.079s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.089s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.090s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.092s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.096s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.112s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.112s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.173s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.178s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.195s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.224s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.238s] -- Found my_interfaces: 0.0.0 (/home/yang/Desktop/proj/ros0/install/my_interfaces/share/my_interfaces/cmake)
+[0.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.244s] -- Configured cppcheck include dirs: 
+[0.244s] -- Configured cppcheck exclude dirs and/or files: 
+[0.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.244s] -- Added test 'lint_cmake' to check CMake code style
+[0.244s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.244s] -- Added test 'uncrustify' to check C / C++ code style
+[0.244s] -- Configured uncrustify additional arguments: 
+[0.244s] -- Added test 'xmllint' to check XML markup files
+[0.244s] -- Configuring done
+[0.254s] -- Generating done
+[0.258s] -- Build files have been written to: /home/yang/Desktop/proj/ros0/build/my_first_pkg
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target add_client[0m
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target sensor_pub[0m
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target ekf_slam[0m
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target add_server[0m
+[0.276s] [ 16%] Built target add_client
+[0.277s] [ 33%] Built target sensor_pub
+[0.277s] [ 50%] Built target talker
+[0.277s] [ 66%] Built target listener
+[0.278s] [ 83%] Built target add_server
+[0.278s] [ 91%] [32mBuilding CXX object CMakeFiles/ekf_slam.dir/src/ekf_slam.cpp.o[0m
+[1.382s] [01m[K/home/yang/Desktop/proj/ros0/my_first_pkg/src/ekf_slam.cpp:[m[K In constructor ‘[01m[KEkfsSlam::EkfsSlam()[m[K’:
+[1.382s] [01m[K/home/yang/Desktop/proj/ros0/my_first_pkg/src/ekf_slam.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQ_[m[K’?
+[1.382s]    25 |     [01;31m[KQ[m[K = (Vec3() << 0.1, 0.1, 0.05).finished().asDiagonal();
+[1.382s]       |     [01;31m[K^[m[K
+[1.382s]       |     [32m[KQ_[m[K
+[2.435s] gmake[2]: *** [CMakeFiles/ekf_slam.dir/build.make:76: CMakeFiles/ekf_slam.dir/src/ekf_slam.cpp.o] Error 1
+[2.435s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/ekf_slam.dir/all] Error 2
+[2.435s] gmake: *** [Makefile:146: all] Error 2
+[2.436s] Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12

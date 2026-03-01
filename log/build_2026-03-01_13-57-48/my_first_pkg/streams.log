@@ -1,0 +1,38 @@
+[0.011s] Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
+[0.031s] [35m[1mConsolidate compiler generated dependencies of target ekf_slam[0m
+[0.038s] [ 41%] Built target listener
+[0.038s] [ 50%] Built target add_server
+[0.038s] [ 41%] Built target add_client
+[0.038s] [ 75%] Built target talker
+[0.038s] [ 83%] Built target sensor_pub
+[0.043s] [ 91%] [32mBuilding CXX object CMakeFiles/ekf_slam.dir/src/ekf_slam.cpp.o[0m
+[4.012s] [100%] [32m[1mLinking CXX executable ekf_slam[0m
+[4.169s] [100%] Built target ekf_slam
+[4.173s] Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
+[4.174s] Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/yang/Desktop/proj/ros0/build/my_first_pkg
+[4.177s] -- Install configuration: ""
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/talker
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/listener
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/add_server
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/add_client
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/launch
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/launch/demo.launch.py
+[4.177s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/sensor_pub
+[4.177s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/ekf_slam
+[4.179s] -- Set runtime path of "/home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/ekf_slam" to ""
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[4.179s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/package.dsv
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[4.179s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/package.xml
+[4.180s] Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/yang/Desktop/proj/ros0/build/my_first_pkg

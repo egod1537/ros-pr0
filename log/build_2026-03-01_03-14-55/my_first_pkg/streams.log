@@ -1,0 +1,58 @@
+[0.011s] Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
+[0.022s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.075s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.085s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.086s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.088s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.091s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.107s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.108s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.146s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.164s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.191s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.206s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.207s] -- Configured cppcheck include dirs: 
+[0.207s] -- Configured cppcheck exclude dirs and/or files: 
+[0.207s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.207s] -- Added test 'lint_cmake' to check CMake code style
+[0.207s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.207s] -- Added test 'uncrustify' to check C / C++ code style
+[0.207s] -- Configured uncrustify additional arguments: 
+[0.207s] -- Added test 'xmllint' to check XML markup files
+[0.207s] -- Configuring done
+[0.214s] -- Generating done
+[0.217s] -- Build files have been written to: /home/yang/Desktop/proj/ros0/build/my_first_pkg
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target add_server[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target add_client[0m
+[0.234s] [ 25%] Built target add_client
+[0.234s] [ 87%] Built target listener
+[0.234s] [ 87%] Built target talker
+[0.235s] [100%] Built target add_server
+[0.239s] Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
+[0.242s] Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yang/Desktop/proj/ros0/build/my_first_pkg
+[0.245s] -- Install configuration: ""
+[0.245s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/talker
+[0.245s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/listener
+[0.245s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/add_server
+[0.245s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/lib/my_first_pkg/add_client
+[0.245s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/launch
+[0.245s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/launch/demo.launch.py
+[0.245s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[0.245s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[0.245s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[0.245s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[0.246s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[0.246s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[0.246s] -- Installing: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/package.dsv
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[0.246s] -- Up-to-date: /home/yang/Desktop/proj/ros0/install/my_first_pkg/share/my_first_pkg/package.xml
+[0.247s] Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yang/Desktop/proj/ros0/build/my_first_pkg
