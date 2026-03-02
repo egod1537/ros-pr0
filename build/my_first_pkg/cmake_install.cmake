@@ -1,8 +1,8 @@
-# Install script for directory: /home/yang/Desktop/proj/ros0/my_first_pkg
+# Install script for directory: /home/yang/Desktop/ros-pr0/my_first_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yang/Desktop/proj/ros0/install/my_first_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/Desktop/ros-pr0/install/my_first_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/talker"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/talker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/talker")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/talker" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/talker")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/listener"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/listener")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/listener")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/listener" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/listener")
     file(RPATH_CHANGE
@@ -89,7 +89,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/add_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/add_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/add_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/add_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/add_server")
     file(RPATH_CHANGE
@@ -109,7 +109,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/add_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/add_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/add_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/add_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/add_client")
     file(RPATH_CHANGE
@@ -123,7 +123,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE DIRECTORY FILES "/home/yang/Desktop/proj/ros0/my_first_pkg/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE DIRECTORY FILES "/home/yang/Desktop/ros-pr0/my_first_pkg/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -133,12 +133,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/sensor_pub"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/sensor_pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/sensor_pub")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/sensor_pub" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/sensor_pub")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/sensor_pub"
-         OLD_RPATH "/opt/ros/humble/lib:/home/yang/Desktop/proj/ros0/install/my_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/yang/Desktop/ros-pr0/install/my_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/sensor_pub")
@@ -153,7 +153,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/ekf_slam"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ekf_slam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg" TYPE EXECUTABLE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ekf_slam")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/ekf_slam" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_pkg/ekf_slam")
     file(RPATH_CHANGE
@@ -167,11 +167,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -179,7 +179,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg/environment" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg/environment" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -187,42 +187,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg/environment" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg/environment" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg/cmake" TYPE FILE FILES
-    "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_core/my_first_pkgConfig.cmake"
-    "/home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_core/my_first_pkgConfig-version.cmake"
+    "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_core/my_first_pkgConfig.cmake"
+    "/home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_core/my_first_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/proj/ros0/my_first_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_pkg" TYPE FILE FILES "/home/yang/Desktop/ros-pr0/my_first_pkg/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -233,5 +233,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yang/Desktop/proj/ros0/build/my_first_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yang/Desktop/ros-pr0/build/my_first_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

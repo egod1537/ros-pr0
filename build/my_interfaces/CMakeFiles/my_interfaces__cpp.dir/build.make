@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yang/Desktop/proj/ros0/src/my_interfaces
+CMAKE_SOURCE_DIR = /home/yang/Desktop/ros-pr0/src/my_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yang/Desktop/proj/ros0/build/my_interfaces
+CMAKE_BINARY_DIR = /home/yang/Desktop/ros-pr0/build/my_interfaces
 
 # Utility rule file for my_interfaces__cpp.
 
@@ -89,8 +89,8 @@ rosidl_generator_cpp/my_interfaces/msg/sensor.hpp: /opt/ros/humble/share/rosidl_
 rosidl_generator_cpp/my_interfaces/msg/sensor.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/my_interfaces/msg/sensor.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_interfaces/msg/sensor.hpp: rosidl_adapter/my_interfaces/msg/Sensor.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/Desktop/proj/ros0/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/yang/Desktop/proj/ros0/build/my_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/Desktop/ros-pr0/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/yang/Desktop/ros-pr0/build/my_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/my_interfaces/msg/detail/sensor__builder.hpp: rosidl_generator_cpp/my_interfaces/msg/sensor.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/msg/detail/sensor__builder.hpp
@@ -122,6 +122,6 @@ CMakeFiles/my_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/my_interfaces__cpp.dir/clean
 
 CMakeFiles/my_interfaces__cpp.dir/depend:
-	cd /home/yang/Desktop/proj/ros0/build/my_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/Desktop/proj/ros0/src/my_interfaces /home/yang/Desktop/proj/ros0/src/my_interfaces /home/yang/Desktop/proj/ros0/build/my_interfaces /home/yang/Desktop/proj/ros0/build/my_interfaces /home/yang/Desktop/proj/ros0/build/my_interfaces/CMakeFiles/my_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/Desktop/ros-pr0/build/my_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/Desktop/ros-pr0/src/my_interfaces /home/yang/Desktop/ros-pr0/src/my_interfaces /home/yang/Desktop/ros-pr0/build/my_interfaces /home/yang/Desktop/ros-pr0/build/my_interfaces /home/yang/Desktop/ros-pr0/build/my_interfaces/CMakeFiles/my_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_interfaces__cpp.dir/depend
 

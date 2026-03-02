@@ -12,7 +12,7 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(Eigen3 REQUIRED)
-
+find_package(sensor_msgs REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -50,7 +50,7 @@ ament_target_dependencies(sensor_pub rclcpp my_interfaces)
 install(TARGETS sensor_pub DESTINATION lib/${PROJECT_NAME})
 
 add_executable(ekf_slam src/ekf_slam.cpp)
-ament_target_dependencies(ekf_slam rclcpp geometry_msgs visualization_msgs)
+ament_target_dependencies(ekf_slam rclcpp geometry_msgs visualization_msgs Eigen3)
 target_link_libraries(ekf_slam Eigen3::Eigen)
 install(TARGETS ekf_slam DESTINATION lib/${PROJECT_NAME})
 

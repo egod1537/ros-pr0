@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yang/Desktop/proj/ros0/my_first_pkg/src/publisher.cpp" "CMakeFiles/talker.dir/src/publisher.cpp.o" "gcc" "CMakeFiles/talker.dir/src/publisher.cpp.o.d"
+  "/home/yang/Desktop/ros-pr0/my_first_pkg/src/publisher.cpp" "CMakeFiles/talker.dir/src/publisher.cpp.o" "gcc" "CMakeFiles/talker.dir/src/publisher.cpp.o.d"
   )
 
 # Targets to which this target links.

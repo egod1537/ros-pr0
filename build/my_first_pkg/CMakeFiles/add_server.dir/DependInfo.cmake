@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yang/Desktop/proj/ros0/my_first_pkg/src/add_server.cpp" "CMakeFiles/add_server.dir/src/add_server.cpp.o" "gcc" "CMakeFiles/add_server.dir/src/add_server.cpp.o.d"
+  "/home/yang/Desktop/ros-pr0/my_first_pkg/src/add_server.cpp" "CMakeFiles/add_server.dir/src/add_server.cpp.o" "gcc" "CMakeFiles/add_server.dir/src/add_server.cpp.o.d"
   )
 
 # Targets to which this target links.

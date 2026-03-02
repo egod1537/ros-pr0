@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yang/Desktop/proj/ros0/my_first_pkg
+CMAKE_SOURCE_DIR = /home/yang/Desktop/ros-pr0/my_first_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yang/Desktop/proj/ros0/build/my_first_pkg
+CMAKE_BINARY_DIR = /home/yang/Desktop/ros-pr0/build/my_first_pkg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yang/Desktop/proj/ros0/build/my_first_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/Desktop/proj/ros0/my_first_pkg /home/yang/Desktop/proj/ros0/my_first_pkg /home/yang/Desktop/proj/ros0/build/my_first_pkg /home/yang/Desktop/proj/ros0/build/my_first_pkg /home/yang/Desktop/proj/ros0/build/my_first_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/Desktop/ros-pr0/build/my_first_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/Desktop/ros-pr0/my_first_pkg /home/yang/Desktop/ros-pr0/my_first_pkg /home/yang/Desktop/ros-pr0/build/my_first_pkg /home/yang/Desktop/ros-pr0/build/my_first_pkg /home/yang/Desktop/ros-pr0/build/my_first_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

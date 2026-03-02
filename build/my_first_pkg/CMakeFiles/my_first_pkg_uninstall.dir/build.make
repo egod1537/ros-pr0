@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yang/Desktop/proj/ros0/my_first_pkg
+CMAKE_SOURCE_DIR = /home/yang/Desktop/ros-pr0/my_first_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yang/Desktop/proj/ros0/build/my_first_pkg
+CMAKE_BINARY_DIR = /home/yang/Desktop/ros-pr0/build/my_first_pkg
 
 # Utility rule file for my_first_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/my_first_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/my_first_pkg_uninstall.dir/progress.make
 
 CMakeFiles/my_first_pkg_uninstall:
-	/usr/bin/cmake -P /home/yang/Desktop/proj/ros0/build/my_first_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yang/Desktop/ros-pr0/build/my_first_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 my_first_pkg_uninstall: CMakeFiles/my_first_pkg_uninstall
 my_first_pkg_uninstall: CMakeFiles/my_first_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/my_first_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_first_pkg_uninstall.dir/clean
 
 CMakeFiles/my_first_pkg_uninstall.dir/depend:
-	cd /home/yang/Desktop/proj/ros0/build/my_first_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/Desktop/proj/ros0/my_first_pkg /home/yang/Desktop/proj/ros0/my_first_pkg /home/yang/Desktop/proj/ros0/build/my_first_pkg /home/yang/Desktop/proj/ros0/build/my_first_pkg /home/yang/Desktop/proj/ros0/build/my_first_pkg/CMakeFiles/my_first_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/Desktop/ros-pr0/build/my_first_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/Desktop/ros-pr0/my_first_pkg /home/yang/Desktop/ros-pr0/my_first_pkg /home/yang/Desktop/ros-pr0/build/my_first_pkg /home/yang/Desktop/ros-pr0/build/my_first_pkg /home/yang/Desktop/ros-pr0/build/my_first_pkg/CMakeFiles/my_first_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_first_pkg_uninstall.dir/depend
 

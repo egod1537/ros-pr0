@@ -1,4 +1,0 @@
-Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
-Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yang/Desktop/proj/ros0/build/my_first_pkg -- -j12 -l12
-Invoking command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yang/Desktop/proj/ros0/build/my_first_pkg
-Invoked command in '/home/yang/Desktop/proj/ros0/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yang/Desktop/proj/ros0/build/my_first_pkg

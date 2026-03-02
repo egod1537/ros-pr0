@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000790] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.000980] (my_first_pkg) JobQueued: {'identifier': 'my_first_pkg', 'dependencies': OrderedDict()}
+[0.001007] (my_first_pkg) JobStarted: {'identifier': 'my_first_pkg'}
+[0.009060] (my_first_pkg) JobProgress: {'identifier': 'my_first_pkg', 'progress': 'cmake'}
+[0.010073] (my_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/yang/Desktop/ros-pr0/my_first_pkg', '-DCMAKE_INSTALL_PREFIX=/home/yang/Desktop/ros-pr0/install/my_first_pkg'], 'cwd': '/home/yang/Desktop/ros-pr0/build/my_first_pkg', 'env': OrderedDict([('USER', 'yang'), ('LC_TIME', 'ko_KR.UTF-8'), ('NVIM', '/run/user/1000/nvim.60825.0'), ('XDG_SESSION_TYPE', 'x11'), ('NVIM_LOG_FILE', '/home/yang/.local/state/nvim/log'), ('LD_LIBRARY_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/yang/Desktop/ros-pr0'), ('LESS', '-R'), ('HOME', '/home/yang'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ZSH', '/home/yang/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1892'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install'), ('MASON', '/home/yang/.local/share/nvim/mason'), ('LOGNAME', 'yang'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yang/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin'), ('SESSION_MANAGER', 'local/yang:@/tmp/.ICE-unix/1649,unix/yang:/tmp/.ICE-unix/1649'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7cef3b4a_01b5_4205_a7cf_5c4fc25a01c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces:/home/yang/Desktop/ros-pr0/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('MYVIMRC', '/home/yang/.config/nvim/init.lua'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/Desktop/ros-pr0/build/my_first_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces:/home/yang/Desktop/ros-pr0/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.026545] (my_first_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099668] (-) TimerEvent: {}
+[0.172562] (my_first_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199833] (-) TimerEvent: {}
+[0.203487] (my_first_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.206381] (my_first_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.213381] (my_first_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.224708] (my_first_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239545] (my_first_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.292183] (my_first_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.294240] (my_first_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299937] (-) TimerEvent: {}
+[0.400294] (-) TimerEvent: {}
+[0.446047] (my_first_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500446] (-) TimerEvent: {}
+[0.505492] (my_first_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.520157] (my_first_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.563598] (my_first_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600585] (-) TimerEvent: {}
+[0.647078] (my_first_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.692865] (my_first_pkg) StdoutLine: {'line': b'-- Found my_interfaces: 0.0.0 (/home/yang/Desktop/ros-pr0/install/my_interfaces/share/my_interfaces/cmake)\n'}
+[0.700718] (-) TimerEvent: {}
+[0.708371] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.708606] (my_first_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.708680] (my_first_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.709121] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.709635] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.710320] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.711706] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.711855] (my_first_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.712338] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.713614] (my_first_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.744020] (my_first_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.754941] (my_first_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/yang/Desktop/ros-pr0/build/my_first_pkg\n'}
+[0.764752] (my_first_pkg) CommandEnded: {'returncode': 0}
+[0.765579] (my_first_pkg) JobProgress: {'identifier': 'my_first_pkg', 'progress': 'build'}
+[0.766845] (my_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/Desktop/ros-pr0/build/my_first_pkg', '--', '-j4', '-l4'], 'cwd': '/home/yang/Desktop/ros-pr0/build/my_first_pkg', 'env': OrderedDict([('USER', 'yang'), ('LC_TIME', 'ko_KR.UTF-8'), ('NVIM', '/run/user/1000/nvim.60825.0'), ('XDG_SESSION_TYPE', 'x11'), ('NVIM_LOG_FILE', '/home/yang/.local/state/nvim/log'), ('LD_LIBRARY_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/yang/Desktop/ros-pr0'), ('LESS', '-R'), ('HOME', '/home/yang'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ZSH', '/home/yang/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1892'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install'), ('MASON', '/home/yang/.local/share/nvim/mason'), ('LOGNAME', 'yang'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yang/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin'), ('SESSION_MANAGER', 'local/yang:@/tmp/.ICE-unix/1649,unix/yang:/tmp/.ICE-unix/1649'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7cef3b4a_01b5_4205_a7cf_5c4fc25a01c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces:/home/yang/Desktop/ros-pr0/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('MYVIMRC', '/home/yang/.config/nvim/init.lua'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/Desktop/ros-pr0/build/my_first_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces:/home/yang/Desktop/ros-pr0/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.800852] (-) TimerEvent: {}
+[0.833129] (my_first_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.833386] (my_first_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.833536] (my_first_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/add_client.dir/src/add_client.cpp.o\x1b[0m\n'}
+[0.837471] (my_first_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/add_server.dir/src/add_server.cpp.o\x1b[0m\n'}
+[0.900986] (-) TimerEvent: {}
+[1.001374] (-) TimerEvent: {}
+[1.102872] (-) TimerEvent: {}
+[1.203245] (-) TimerEvent: {}
+[1.303630] (-) TimerEvent: {}
+[1.404613] (-) TimerEvent: {}
+[1.505018] (-) TimerEvent: {}
+[1.605953] (-) TimerEvent: {}
+[1.706341] (-) TimerEvent: {}
+[1.808125] (-) TimerEvent: {}
+[1.911083] (-) TimerEvent: {}
+[2.016314] (-) TimerEvent: {}
+[2.122169] (-) TimerEvent: {}
+[2.227505] (-) TimerEvent: {}
+[2.329604] (-) TimerEvent: {}
+[2.433045] (-) TimerEvent: {}
+[2.533467] (-) TimerEvent: {}
+[2.636226] (-) TimerEvent: {}
+[2.741043] (-) TimerEvent: {}
+[2.842904] (-) TimerEvent: {}
+[2.944253] (-) TimerEvent: {}
+[3.045792] (-) TimerEvent: {}
+[3.147245] (-) TimerEvent: {}
+[3.248731] (-) TimerEvent: {}
+[3.350015] (-) TimerEvent: {}
+[3.452151] (-) TimerEvent: {}
+[3.559012] (-) TimerEvent: {}
+[3.663878] (-) TimerEvent: {}
+[3.764291] (-) TimerEvent: {}
+[3.868875] (-) TimerEvent: {}
+[3.969220] (-) TimerEvent: {}
+[4.069688] (-) TimerEvent: {}
+[4.170985] (-) TimerEvent: {}
+[4.272909] (-) TimerEvent: {}
+[4.373368] (-) TimerEvent: {}
+[4.475639] (-) TimerEvent: {}
+[4.576096] (-) TimerEvent: {}
+[4.677019] (-) TimerEvent: {}
+[4.779872] (-) TimerEvent: {}
+[4.883060] (-) TimerEvent: {}
+[4.986501] (-) TimerEvent: {}
+[5.088984] (-) TimerEvent: {}
+[5.189896] (-) TimerEvent: {}
+[5.294875] (-) TimerEvent: {}
+[5.395328] (-) TimerEvent: {}
+[5.495774] (-) TimerEvent: {}
+[5.596231] (-) TimerEvent: {}
+[5.698113] (-) TimerEvent: {}
+[5.800720] (-) TimerEvent: {}
+[5.904178] (-) TimerEvent: {}
+[6.007874] (-) TimerEvent: {}
+[6.113872] (-) TimerEvent: {}
+[6.216872] (-) TimerEvent: {}
+[6.320095] (-) TimerEvent: {}
+[6.420513] (-) TimerEvent: {}
+[6.520945] (-) TimerEvent: {}
+[6.621372] (-) TimerEvent: {}
+[6.721829] (-) TimerEvent: {}
+[6.822245] (-) TimerEvent: {}
+[6.927891] (-) TimerEvent: {}
+[7.028235] (-) TimerEvent: {}
+[7.136877] (-) TimerEvent: {}
+[7.237241] (-) TimerEvent: {}
+[7.337691] (-) TimerEvent: {}
+[7.438179] (-) TimerEvent: {}
+[7.538575] (-) TimerEvent: {}
+[7.638983] (-) TimerEvent: {}
+[7.743740] (-) TimerEvent: {}
+[7.846887] (-) TimerEvent: {}
+[7.947317] (-) TimerEvent: {}
+[8.047747] (-) TimerEvent: {}
+[8.148363] (-) TimerEvent: {}
+[8.248854] (-) TimerEvent: {}
+[8.351875] (-) TimerEvent: {}
+[8.452309] (-) TimerEvent: {}
+[8.552749] (-) TimerEvent: {}
+[8.653272] (-) TimerEvent: {}
+[8.753706] (-) TimerEvent: {}
+[8.854139] (-) TimerEvent: {}
+[8.954583] (-) TimerEvent: {}
+[9.055005] (-) TimerEvent: {}
+[9.155426] (-) TimerEvent: {}
+[9.255860] (-) TimerEvent: {}
+[9.357064] (-) TimerEvent: {}
+[9.457990] (-) TimerEvent: {}
+[9.560868] (-) TimerEvent: {}
+[9.655480] (my_first_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable add_server\x1b[0m\n'}
+[9.660979] (-) TimerEvent: {}
+[9.761437] (-) TimerEvent: {}
+[9.863881] (-) TimerEvent: {}
+[9.964277] (-) TimerEvent: {}
+[10.066875] (-) TimerEvent: {}
+[10.099384] (my_first_pkg) StdoutLine: {'line': b'[ 41%] Built target add_server\n'}
+[10.134555] (my_first_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_pub.dir/src/sensor_pub.cpp.o\x1b[0m\n'}
+[10.166989] (-) TimerEvent: {}
+[10.267437] (-) TimerEvent: {}
+[10.367839] (-) TimerEvent: {}
+[10.403729] (my_first_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable add_client\x1b[0m\n'}
+[10.467950] (-) TimerEvent: {}
+[10.568433] (-) TimerEvent: {}
+[10.668988] (-) TimerEvent: {}
+[10.760608] (my_first_pkg) StdoutLine: {'line': b'[ 58%] Built target add_client\n'}
+[10.769093] (-) TimerEvent: {}
+[10.830685] (my_first_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ekf_slam.dir/src/ekf_slam.cpp.o\x1b[0m\n'}
+[10.869207] (-) TimerEvent: {}
+[10.970257] (-) TimerEvent: {}
+[11.071740] (-) TimerEvent: {}
+[11.172149] (-) TimerEvent: {}
+[11.272506] (-) TimerEvent: {}
+[11.373264] (-) TimerEvent: {}
+[11.474904] (-) TimerEvent: {}
+[11.576162] (-) TimerEvent: {}
+[11.677481] (-) TimerEvent: {}
+[11.781877] (-) TimerEvent: {}
+[11.891206] (-) TimerEvent: {}
+[11.991573] (-) TimerEvent: {}
+[12.092675] (-) TimerEvent: {}
+[12.170270] (my_first_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[12.193904] (-) TimerEvent: {}
+[12.297897] (-) TimerEvent: {}
+[12.399091] (-) TimerEvent: {}
+[12.502196] (-) TimerEvent: {}
+[12.604870] (-) TimerEvent: {}
+[12.712872] (-) TimerEvent: {}
+[12.812894] (my_first_pkg) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[12.813139] (-) TimerEvent: {}
+[12.914017] (-) TimerEvent: {}
+[13.018792] (-) TimerEvent: {}
+[13.119153] (-) TimerEvent: {}
+[13.220512] (-) TimerEvent: {}
+[13.320862] (-) TimerEvent: {}
+[13.422316] (-) TimerEvent: {}
+[13.522783] (-) TimerEvent: {}
+[13.623220] (-) TimerEvent: {}
+[13.723566] (-) TimerEvent: {}
+[13.824119] (-) TimerEvent: {}
+[13.924870] (-) TimerEvent: {}
+[14.025305] (-) TimerEvent: {}
+[14.127082] (-) TimerEvent: {}
+[14.227382] (-) TimerEvent: {}
+[14.327895] (-) TimerEvent: {}
+[14.428425] (-) TimerEvent: {}
+[14.529045] (-) TimerEvent: {}
+[14.630367] (-) TimerEvent: {}
+[14.730877] (-) TimerEvent: {}
+[14.834101] (-) TimerEvent: {}
+[14.936308] (-) TimerEvent: {}
+[15.037907] (-) TimerEvent: {}
+[15.139598] (-) TimerEvent: {}
+[15.240038] (-) TimerEvent: {}
+[15.340517] (-) TimerEvent: {}
+[15.440856] (-) TimerEvent: {}
+[15.541277] (-) TimerEvent: {}
+[15.642637] (-) TimerEvent: {}
+[15.743062] (-) TimerEvent: {}
+[15.843432] (-) TimerEvent: {}
+[15.944160] (-) TimerEvent: {}
+[16.045855] (-) TimerEvent: {}
+[16.147395] (-) TimerEvent: {}
+[16.247774] (-) TimerEvent: {}
+[16.348192] (-) TimerEvent: {}
+[16.448514] (-) TimerEvent: {}
+[16.549854] (-) TimerEvent: {}
+[16.655246] (-) TimerEvent: {}
+[16.758737] (-) TimerEvent: {}
+[16.859165] (-) TimerEvent: {}
+[16.964374] (-) TimerEvent: {}
+[17.066027] (-) TimerEvent: {}
+[17.169699] (-) TimerEvent: {}
+[17.270061] (-) TimerEvent: {}
+[17.371621] (-) TimerEvent: {}
+[17.472067] (-) TimerEvent: {}
+[17.572694] (-) TimerEvent: {}
+[17.674127] (-) TimerEvent: {}
+[17.774883] (-) TimerEvent: {}
+[17.875215] (-) TimerEvent: {}
+[17.975549] (-) TimerEvent: {}
+[18.080546] (-) TimerEvent: {}
+[18.181202] (-) TimerEvent: {}
+[18.281595] (-) TimerEvent: {}
+[18.385172] (-) TimerEvent: {}
+[18.452091] (my_first_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable sensor_pub\x1b[0m\n'}
+[18.487876] (-) TimerEvent: {}
+[18.588904] (-) TimerEvent: {}
+[18.690136] (-) TimerEvent: {}
+[18.790509] (-) TimerEvent: {}
+[18.890859] (-) TimerEvent: {}
+[18.915495] (my_first_pkg) StdoutLine: {'line': b'[ 83%] Built target sensor_pub\n'}
+[18.943492] (my_first_pkg) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[18.990969] (-) TimerEvent: {}
+[19.091300] (-) TimerEvent: {}
+[19.192951] (-) TimerEvent: {}
+[19.293345] (-) TimerEvent: {}
+[19.393678] (-) TimerEvent: {}
+[19.494022] (-) TimerEvent: {}
+[19.514462] (my_first_pkg) StdoutLine: {'line': b'[ 91%] Built target listener\n'}
+[19.594140] (-) TimerEvent: {}
+[19.694487] (-) TimerEvent: {}
+[19.794861] (-) TimerEvent: {}
+[19.895227] (-) TimerEvent: {}
+[19.995584] (-) TimerEvent: {}
+[20.095929] (-) TimerEvent: {}
+[20.196293] (-) TimerEvent: {}
+[20.296676] (-) TimerEvent: {}
+[20.396978] (-) TimerEvent: {}
+[20.497317] (-) TimerEvent: {}
+[20.597643] (-) TimerEvent: {}
+[20.697919] (-) TimerEvent: {}
+[20.798241] (-) TimerEvent: {}
+[20.898584] (-) TimerEvent: {}
+[20.998932] (-) TimerEvent: {}
+[21.099269] (-) TimerEvent: {}
+[21.199816] (-) TimerEvent: {}
+[21.301784] (-) TimerEvent: {}
+[21.402459] (-) TimerEvent: {}
+[21.503384] (-) TimerEvent: {}
+[21.604577] (-) TimerEvent: {}
+[21.705106] (-) TimerEvent: {}
+[21.805551] (-) TimerEvent: {}
+[21.906066] (-) TimerEvent: {}
+[22.006616] (-) TimerEvent: {}
+[22.106996] (-) TimerEvent: {}
+[22.207335] (-) TimerEvent: {}
+[22.307697] (-) TimerEvent: {}
+[22.408072] (-) TimerEvent: {}
+[22.508382] (-) TimerEvent: {}
+[22.608689] (-) TimerEvent: {}
+[22.709011] (-) TimerEvent: {}
+[22.809314] (-) TimerEvent: {}
+[22.909623] (-) TimerEvent: {}
+[23.009935] (-) TimerEvent: {}
+[23.110250] (-) TimerEvent: {}
+[23.210560] (-) TimerEvent: {}
+[23.310865] (-) TimerEvent: {}
+[23.411280] (-) TimerEvent: {}
+[23.511608] (-) TimerEvent: {}
+[23.611970] (-) TimerEvent: {}
+[23.712456] (-) TimerEvent: {}
+[23.812776] (-) TimerEvent: {}
+[23.913059] (-) TimerEvent: {}
+[24.013343] (-) TimerEvent: {}
+[24.113631] (-) TimerEvent: {}
+[24.213938] (-) TimerEvent: {}
+[24.314401] (-) TimerEvent: {}
+[24.414778] (-) TimerEvent: {}
+[24.515869] (-) TimerEvent: {}
+[24.616209] (-) TimerEvent: {}
+[24.716767] (-) TimerEvent: {}
+[24.817107] (-) TimerEvent: {}
+[24.917448] (-) TimerEvent: {}
+[25.017748] (-) TimerEvent: {}
+[25.118033] (-) TimerEvent: {}
+[25.218339] (-) TimerEvent: {}
+[25.318683] (-) TimerEvent: {}
+[25.419046] (-) TimerEvent: {}
+[25.519356] (-) TimerEvent: {}
+[25.619676] (-) TimerEvent: {}
+[25.720108] (-) TimerEvent: {}
+[25.820487] (-) TimerEvent: {}
+[25.920878] (-) TimerEvent: {}
+[26.021234] (-) TimerEvent: {}
+[26.121557] (-) TimerEvent: {}
+[26.221881] (-) TimerEvent: {}
+[26.322212] (-) TimerEvent: {}
+[26.422760] (-) TimerEvent: {}
+[26.523054] (-) TimerEvent: {}
+[26.623319] (-) TimerEvent: {}
+[26.723616] (-) TimerEvent: {}
+[26.823980] (-) TimerEvent: {}
+[26.924335] (-) TimerEvent: {}
+[27.024609] (-) TimerEvent: {}
+[27.124902] (-) TimerEvent: {}
+[27.225199] (-) TimerEvent: {}
+[27.325524] (-) TimerEvent: {}
+[27.425850] (-) TimerEvent: {}
+[27.526291] (-) TimerEvent: {}
+[27.626615] (-) TimerEvent: {}
+[27.727043] (-) TimerEvent: {}
+[27.827386] (-) TimerEvent: {}
+[27.927739] (-) TimerEvent: {}
+[28.028095] (-) TimerEvent: {}
+[28.128428] (-) TimerEvent: {}
+[28.228762] (-) TimerEvent: {}
+[28.329252] (-) TimerEvent: {}
+[28.429746] (-) TimerEvent: {}
+[28.530232] (-) TimerEvent: {}
+[28.630645] (-) TimerEvent: {}
+[28.731071] (-) TimerEvent: {}
+[28.831416] (-) TimerEvent: {}
+[28.931746] (-) TimerEvent: {}
+[29.032120] (-) TimerEvent: {}
+[29.132490] (-) TimerEvent: {}
+[29.232838] (-) TimerEvent: {}
+[29.333156] (-) TimerEvent: {}
+[29.433503] (-) TimerEvent: {}
+[29.533835] (-) TimerEvent: {}
+[29.634169] (-) TimerEvent: {}
+[29.734570] (-) TimerEvent: {}
+[29.835294] (-) TimerEvent: {}
+[29.935674] (-) TimerEvent: {}
+[30.036006] (-) TimerEvent: {}
+[30.136315] (-) TimerEvent: {}
+[30.236621] (-) TimerEvent: {}
+[30.336920] (-) TimerEvent: {}
+[30.437256] (-) TimerEvent: {}
+[30.537559] (-) TimerEvent: {}
+[30.637875] (-) TimerEvent: {}
+[30.738179] (-) TimerEvent: {}
+[30.838441] (-) TimerEvent: {}
+[30.938735] (-) TimerEvent: {}
+[31.039071] (-) TimerEvent: {}
+[31.139402] (-) TimerEvent: {}
+[31.239731] (-) TimerEvent: {}
+[31.340088] (-) TimerEvent: {}
+[31.440394] (-) TimerEvent: {}
+[31.540673] (-) TimerEvent: {}
+[31.641032] (-) TimerEvent: {}
+[31.741380] (-) TimerEvent: {}
+[31.841757] (-) TimerEvent: {}
+[31.942122] (-) TimerEvent: {}
+[32.042471] (-) TimerEvent: {}
+[32.142786] (-) TimerEvent: {}
+[32.243138] (-) TimerEvent: {}
+[32.343526] (-) TimerEvent: {}
+[32.443838] (-) TimerEvent: {}
+[32.544166] (-) TimerEvent: {}
+[32.644542] (-) TimerEvent: {}
+[32.744850] (-) TimerEvent: {}
+[32.845137] (-) TimerEvent: {}
+[32.945426] (-) TimerEvent: {}
+[33.045772] (-) TimerEvent: {}
+[33.146142] (-) TimerEvent: {}
+[33.246472] (-) TimerEvent: {}
+[33.346783] (-) TimerEvent: {}
+[33.447106] (-) TimerEvent: {}
+[33.547441] (-) TimerEvent: {}
+[33.647768] (-) TimerEvent: {}
+[33.748085] (-) TimerEvent: {}
+[33.848411] (-) TimerEvent: {}
+[33.948823] (-) TimerEvent: {}
+[34.049670] (-) TimerEvent: {}
+[34.150244] (-) TimerEvent: {}
+[34.252775] (-) TimerEvent: {}
+[34.353193] (-) TimerEvent: {}
+[34.453558] (-) TimerEvent: {}
+[34.553879] (-) TimerEvent: {}
+[34.654306] (-) TimerEvent: {}
+[34.754643] (-) TimerEvent: {}
+[34.854993] (-) TimerEvent: {}
+[34.955314] (-) TimerEvent: {}
+[35.055675] (-) TimerEvent: {}
+[35.155984] (-) TimerEvent: {}
+[35.203381] (my_first_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_slam\x1b[0m\n'}
+[35.256042] (-) TimerEvent: {}
+[35.356371] (-) TimerEvent: {}
+[35.456707] (-) TimerEvent: {}
+[35.557036] (-) TimerEvent: {}
+[35.657345] (-) TimerEvent: {}
+[35.757677] (-) TimerEvent: {}
+[35.857998] (-) TimerEvent: {}
+[35.958360] (-) TimerEvent: {}
+[36.058679] (-) TimerEvent: {}
+[36.159083] (-) TimerEvent: {}
+[36.261952] (-) TimerEvent: {}
+[36.264258] (my_first_pkg) StdoutLine: {'line': b'[100%] Built target ekf_slam\n'}
+[36.281177] (my_first_pkg) CommandEnded: {'returncode': 0}
+[36.282375] (my_first_pkg) JobProgress: {'identifier': 'my_first_pkg', 'progress': 'install'}
+[36.294531] (my_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yang/Desktop/ros-pr0/build/my_first_pkg'], 'cwd': '/home/yang/Desktop/ros-pr0/build/my_first_pkg', 'env': OrderedDict([('USER', 'yang'), ('LC_TIME', 'ko_KR.UTF-8'), ('NVIM', '/run/user/1000/nvim.60825.0'), ('XDG_SESSION_TYPE', 'x11'), ('NVIM_LOG_FILE', '/home/yang/.local/state/nvim/log'), ('LD_LIBRARY_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/yang/Desktop/ros-pr0'), ('LESS', '-R'), ('HOME', '/home/yang'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ZSH', '/home/yang/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1892'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install'), ('MASON', '/home/yang/.local/share/nvim/mason'), ('LOGNAME', 'yang'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yang/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin'), ('SESSION_MANAGER', 'local/yang:@/tmp/.ICE-unix/1649,unix/yang:/tmp/.ICE-unix/1649'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7cef3b4a_01b5_4205_a7cf_5c4fc25a01c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces:/home/yang/Desktop/ros-pr0/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('MYVIMRC', '/home/yang/.config/nvim/init.lua'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/Desktop/ros-pr0/build/my_first_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/Desktop/ros-pr0/install/my_interfaces:/home/yang/Desktop/ros-pr0/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[36.308156] (my_first_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.309467] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/talker\n'}
+[36.311856] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/talker" to ""\n'}
+[36.312058] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/listener\n'}
+[36.316442] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/listener" to ""\n'}
+[36.316643] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/add_server\n'}
+[36.317673] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/add_server" to ""\n'}
+[36.317863] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/add_client\n'}
+[36.319052] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/add_client" to ""\n'}
+[36.319364] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/launch\n'}
+[36.319529] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/launch/demo.launch.py\n'}
+[36.319782] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/sensor_pub\n'}
+[36.321425] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/sensor_pub" to ""\n'}
+[36.321636] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/ekf_slam\n'}
+[36.330481] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/Desktop/ros-pr0/install/my_first_pkg/lib/my_first_pkg/ekf_slam" to ""\n'}
+[36.330718] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg\n'}
+[36.331587] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg\n'}
+[36.332151] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh\n'}
+[36.332317] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv\n'}
+[36.332445] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/environment/path.sh\n'}
+[36.333003] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/environment/path.dsv\n'}
+[36.333173] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/local_setup.bash\n'}
+[36.333281] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/local_setup.sh\n'}
+[36.333380] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/local_setup.zsh\n'}
+[36.333482] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/local_setup.dsv\n'}
+[36.333577] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/package.dsv\n'}
+[36.333756] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg\n'}
+[36.334014] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake\n'}
+[36.334128] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake\n'}
+[36.334255] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/yang/Desktop/ros-pr0/install/my_first_pkg/share/my_first_pkg/package.xml\n'}
+[36.337146] (my_first_pkg) CommandEnded: {'returncode': 0}
+[36.362829] (-) TimerEvent: {}
+[36.376025] (my_first_pkg) JobEnded: {'identifier': 'my_first_pkg', 'rc': 0}
+[36.377051] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/yang/Desktop/ros-pr0/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yang/Desktop/ros-pr0/my_first_pkg -DCMAKE_INSTALL_PREFIX=/home/yang/Desktop/ros-pr0/install/my_first_pkg
+[0.028s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.207s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.213s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.275s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.388s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.448s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.465s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.514s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.615s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.703s] [31mCMake Error at CMakeLists.txt:47 (find_package):
+[0.703s]   By not providing "Findmy_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.703s]   project has asked CMake to find a package configuration file provided by
+[0.703s]   "my_interfaces", but CMake did not find one.
+[0.703s] 
+[0.703s]   Could not find a package configuration file provided by "my_interfaces"
+[0.703s]   with any of the following names:
+[0.703s] 
+[0.703s]     my_interfacesConfig.cmake
+[0.703s]     my_interfaces-config.cmake
+[0.703s] 
+[0.703s]   Add the installation prefix of "my_interfaces" to CMAKE_PREFIX_PATH or set
+[0.703s]   "my_interfaces_DIR" to a directory containing one of the above files.  If
+[0.703s]   "my_interfaces" provides a separate development package or SDK, be sure it
+[0.703s]   has been installed.
+[0.704s] 
+[0.704s] [0m
+[0.704s] -- Configuring incomplete, errors occurred!
+[0.704s] See also "/home/yang/Desktop/ros-pr0/build/my_first_pkg/CMakeFiles/CMakeOutput.log".
+[0.713s] Invoked command in '/home/yang/Desktop/ros-pr0/build/my_first_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yang/Desktop/ros-pr0/my_first_pkg -DCMAKE_INSTALL_PREFIX=/home/yang/Desktop/ros-pr0/install/my_first_pkg

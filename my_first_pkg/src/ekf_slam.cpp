@@ -59,7 +59,7 @@ static std::vector<Observation> extract_landmarks(const LaserScan &scan,
   for (size_t i = 0; i < scan.ranges.size(); ++i) {
     float ri = scan.ranges[i];
 
-    if (ri < scan.range_min || ri > scan.range_max) {
+    if (ri < scan.range_min || ri > max_range) {
       flush();
       continue;
     }
@@ -77,9 +77,9 @@ static std::vector<Observation> extract_landmarks(const LaserScan &scan,
   return obs;
 }
 
-class EkfsSlam : public rclcpp::Node {
+class EkfSlam : public rclcpp::Node {
 public:
-  EkfsSlam() : Node("ekf_slam"), n_lm_(0) {
+  EkfSlam() : Node("ekf_slam"), n_lm_(0) {
     x_ = VecX::Zero(3);
     S_ = MatX::Identity(3, 3) * 0.01;
 
@@ -169,17 +169,16 @@ private:
 
     MatX H = MatX::Zero(2, n);
 
-    H(0, 0) = -dx / q;
-    H(0, 1) = -dy / q;
-    H(0, 2) = 0;
-    H(1, 0) = dy / sq;
-    H(1, 1) = -dx / sq;
-    H(0, 2) = -1;
+    H(0, 0) = -dx / sq;
+    H(0, 1) = -dy / sq;
+    H(1, 0) = dy / q;
+    H(1, 1) = -dx / q;
+    H(1, 2) = -1;
 
     H(0, li) = dx / sq;
     H(0, li + 1) = dy / sq;
     H(1, li) = -dy / q;
-    H(1, li) = dx / q;
+    H(1, li + 1) = dx / q;
 
     Eigen::Matrix2d Z = H * S_ * H.transpose() + R_;
     MatX K = S_ * H.transpose() * Z.inverse();
@@ -191,7 +190,7 @@ private:
     x_ += K * innov;
     x_(2) = wrap(x_(2));
 
-    S_ = (MatX::Identity() - K * H) * S_;
+    S_ = (MatX::Identity(n, n) - K * H) * S_;
   }
 
   int associate(const Observation &z) {
@@ -211,12 +210,13 @@ private:
       int n = state_dim();
       MatX H = MatX::Zero(2, n);
       H(0, 0) = -dx / sq;
-      H(0, 1) = -dy / sq; // 로봇 부분
+      H(0, 1) = -dy / sq;
       H(1, 0) = dy / q;
       H(1, 1) = -dx / q;
       H(1, 2) = -1;
+
       H(0, li) = dx / sq;
-      H(0, li + 1) = dy / sq; // 랜드마크 부분
+      H(0, li + 1) = dy / sq;
       H(1, li) = -dy / q;
       H(1, li + 1) = dx / q;
 
@@ -295,7 +295,7 @@ private:
 
 int main(int argc, char *argv[]) {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<EkfsSlam>());
+  rclcpp::spin(std::make_shared<EkfSlam>());
   rclcpp::shutdown();
   return 0;
 }

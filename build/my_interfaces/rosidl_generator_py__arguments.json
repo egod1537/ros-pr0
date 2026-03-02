@@ -1,9 +1,9 @@
 {
   "package_name": "my_interfaces",
-  "output_dir": "/home/yang/Desktop/proj/ros0/build/my_interfaces/rosidl_generator_py/my_interfaces",
+  "output_dir": "/home/yang/Desktop/ros-pr0/build/my_interfaces/rosidl_generator_py/my_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/yang/Desktop/proj/ros0/build/my_interfaces/rosidl_adapter/my_interfaces:msg/Sensor.idl"
+    "/home/yang/Desktop/ros-pr0/build/my_interfaces/rosidl_adapter/my_interfaces:msg/Sensor.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/yang/Desktop/proj/ros0/build/my_interfaces/rosidl_adapter/my_interfaces/msg/Sensor.idl"
+    "/home/yang/Desktop/ros-pr0/build/my_interfaces/rosidl_adapter/my_interfaces/msg/Sensor.idl"
   ]
 }
